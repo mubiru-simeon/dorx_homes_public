@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "rewrites": [
+      {
+        "source": "/link/**",
+        "dynamicLinks": true
+      }
+    ],
+    "site": "dorxhomes",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
